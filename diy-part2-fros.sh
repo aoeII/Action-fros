@@ -13,6 +13,12 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
+git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
+git clone https://github.com/sirpdboy/luci-app-advanced.git package/luci-app-advanced
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
+
 DEPENDS_PACKAGES="
 	PACKAGE_luci
 	PACKAGE_luci-base
