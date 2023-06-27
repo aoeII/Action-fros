@@ -4852,11 +4852,11 @@ CONFIG_PACKAGE_luci-app-zerotier=y
 # 4. Themes
 #
 CONFIG_PACKAGE_luci-theme-bootstrap=y
-CONFIG_PACKAGE_luci-theme-btmod=y
-CONFIG_PACKAGE_luci-theme-ifit=y
-CONFIG_PACKAGE_luci-theme-material=y
-CONFIG_PACKAGE_luci-theme-opentomato=y
-CONFIG_PACKAGE_luci-theme-opentomcat=y
+# CONFIG_PACKAGE_luci-theme-btmod is not set
+# CONFIG_PACKAGE_luci-theme-ifit is not set
+# CONFIG_PACKAGE_luci-theme-material is not set
+# CONFIG_PACKAGE_luci-theme-opentomato is not set
+# CONFIG_PACKAGE_luci-theme-opentomcat is not set
 CONFIG_PACKAGE_luci-theme-openwrt=y
 CONFIG_PACKAGE_luci-theme-openwrt-2020=y
 # end of 4. Themes
