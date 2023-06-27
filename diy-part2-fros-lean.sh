@@ -12,6 +12,7 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+#sed -i 's/luci-theme-bootstrap/luci-theme-argon-18.06/g' ./feeds/luci/collections/luci/Makefile
 
 git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
