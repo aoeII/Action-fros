@@ -17,17 +17,12 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-rm -rf feeds.conf.default
-touch feeds.conf.default
+#rm -rf feeds.conf.default
+#touch feeds.conf.default
 #echo 'src-git-full packages https://git.openwrt.org/feed/packages.git;openwrt-23.05' >>feeds.conf.default
 #echo 'src-git-full luci https://git.openwrt.org/project/luci.git;openwrt-23.05' >>feeds.conf.default
 #echo 'src-git-full routing https://git.openwrt.org/feed/routing.git;openwrt-23.05' >>feeds.conf.default
 #echo 'src-git-full telephony https://git.openwrt.org/feed/telephony.git;openwrt-23.05' >>feeds.conf.default
-
-echo 'src-git-full packages https://git.openwrt.org/feed/packages.git;openwrt-23.05.0-rc1' >>feeds.conf.default
-echo 'src-git-full luci https://git.openwrt.org/project/luci.git;openwrt-23.05.0-rc1' >>feeds.conf.default
-echo 'src-git-full routing https://git.openwrt.org/feed/routing.git;openwrt-23.05.0-rc1' >>feeds.conf.default
-echo 'src-git-full telephony https://git.openwrt.org/feed/telephony.git;openwrt-23.05.0-rc1' >>feeds.conf.default
 
 echo 'src-git-full fros https://github.com/openfros/packages.git' >>feeds.conf.default
 
