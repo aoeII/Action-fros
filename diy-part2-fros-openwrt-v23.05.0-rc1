@@ -6,7 +6,7 @@
 # See /LICENSE for more information.
 #
 # https://github.com/P3TERX/Actions-OpenWrt
-# File name: diy-part2-fros-feeds.sh
+# File name: diy-part2-fros-openwrt-v23.05.0-rc1.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
