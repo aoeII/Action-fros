@@ -23,9 +23,9 @@ env:
   REPO_URL: https://git.openwrt.org/openwrt/openwrt.git
   REPO_BRANCH: v23.05.0-rc1
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config-feeds
-  DIY_P1_SH: diy-part1-fros-feeds.sh
-  DIY_P2_SH: diy-part2-fros-feeds.sh
+  CONFIG_FILE: .config-openwrt-v23.05.0-rc1
+  DIY_P1_SH: diy-part1-fros-openwrt-v23.05.0-rc1.sh
+  DIY_P2_SH: diy-part2-fros-openwrt-v23.05.0-rc1.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: false
   UPLOAD_COWTRANSFER: false
