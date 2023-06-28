@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build fros-me-lean
+name: Build fros-me-lean-6.1
 
 on:
   repository_dispatch:
