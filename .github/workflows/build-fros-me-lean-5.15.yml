@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/aoeII/lede
   REPO_BRANCH: fros-20230628
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config-lean
+  CONFIG_FILE: .config-lean-5.15
   DIY_P1_SH: diy-part1-fros-lean-5.15.sh
   DIY_P2_SH: diy-part2-fros-lean.sh
   UPLOAD_BIN_DIR: true
