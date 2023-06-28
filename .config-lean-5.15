@@ -211,7 +211,7 @@ CONFIG_EXTERNAL_CPIO=""
 # Root filesystem archives
 #
 # CONFIG_TARGET_ROOTFS_CPIOGZ is not set
-# CONFIG_TARGET_ROOTFS_TARGZ is not set
+CONFIG_TARGET_ROOTFS_TARGZ=y
 
 #
 # Root filesystem images
@@ -2113,12 +2113,12 @@ CONFIG_PACKAGE_fros_files=y
 # Block Devices
 #
 # CONFIG_PACKAGE_kmod-aoe is not set
-# CONFIG_PACKAGE_kmod-ata-ahci is not set
+CONFIG_PACKAGE_kmod-ata-ahci=y
 # CONFIG_PACKAGE_kmod-ata-artop is not set
-# CONFIG_PACKAGE_kmod-ata-core is not set
+CONFIG_PACKAGE_kmod-ata-core=y
 # CONFIG_PACKAGE_kmod-ata-nvidia-sata is not set
 # CONFIG_PACKAGE_kmod-ata-pdc202xx-old is not set
-# CONFIG_PACKAGE_kmod-ata-piix is not set
+CONFIG_PACKAGE_kmod-ata-piix=y
 # CONFIG_PACKAGE_kmod-ata-sil is not set
 # CONFIG_PACKAGE_kmod-ata-sil24 is not set
 # CONFIG_PACKAGE_kmod-ata-via-sata is not set
@@ -2128,15 +2128,15 @@ CONFIG_PACKAGE_kmod-dm=m
 # CONFIG_PACKAGE_kmod-dm-raid is not set
 # CONFIG_PACKAGE_kmod-iosched-bfq is not set
 # CONFIG_PACKAGE_kmod-iscsi-initiator is not set
-# CONFIG_PACKAGE_kmod-libsas is not set
+CONFIG_PACKAGE_kmod-libsas=y
 # CONFIG_PACKAGE_kmod-loop is not set
 # CONFIG_PACKAGE_kmod-md-mod is not set
-# CONFIG_PACKAGE_kmod-mvsas is not set
+CONFIG_PACKAGE_kmod-mvsas=y
 # CONFIG_PACKAGE_kmod-nbd is not set
-# CONFIG_PACKAGE_kmod-nvme is not set
+CONFIG_PACKAGE_kmod-nvme=y
 # CONFIG_PACKAGE_kmod-scsi-cdrom is not set
 CONFIG_PACKAGE_kmod-scsi-core=y
-# CONFIG_PACKAGE_kmod-scsi-generic is not set
+CONFIG_PACKAGE_kmod-scsi-generic=y
 # CONFIG_PACKAGE_kmod-scsi-tape is not set
 # end of Block Devices
 
@@ -7491,7 +7491,7 @@ CONFIG_PACKAGE_v2dat=y
 # CONFIG_PACKAGE_whereis is not set
 CONFIG_PACKAGE_which=y
 # CONFIG_PACKAGE_whiptail is not set
-# CONFIG_PACKAGE_whois is not set
+CONFIG_PACKAGE_whois=y
 # CONFIG_PACKAGE_wifitoggle is not set
 # CONFIG_PACKAGE_wipe is not set
 # CONFIG_PACKAGE_xsltproc is not set
