@@ -3117,13 +3117,13 @@ CONFIG_PACKAGE_kmod-rtl8723du=y
 # CONFIG_PACKAGE_kmod-rtl8821ae is not set
 CONFIG_PACKAGE_kmod-rtl8821cu=y
 # CONFIG_PACKAGE_kmod-rtl8822bu is not set
-CONFIG_PACKAGE_kmod-rtl8822cu=y
+# CONFIG_PACKAGE_kmod-rtl8822cu is not set
 # CONFIG_PACKAGE_kmod-rtl8xxxu is not set
 CONFIG_PACKAGE_kmod-rtlwifi=y
 # CONFIG_PACKAGE_RTLWIFI_DEBUG is not set
 CONFIG_PACKAGE_kmod-rtlwifi-usb=y
 # CONFIG_PACKAGE_kmod-rtw88 is not set
-# CONFIG_PACKAGE_kmod-rtw88-usb is not set
+CONFIG_PACKAGE_kmod-rtw88-usb=y
 # CONFIG_PACKAGE_kmod-wil6210 is not set
 # CONFIG_PACKAGE_kmod-wl12xx is not set
 # CONFIG_PACKAGE_kmod-wl18xx is not set
