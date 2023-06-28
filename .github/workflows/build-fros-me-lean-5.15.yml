@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build fros-me-lean
+name: Build fros-me-lean-5.15
 
 on:
   repository_dispatch:
@@ -24,7 +24,7 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-lean
-  DIY_P1_SH: diy-part1-fros-lean.sh
+  DIY_P1_SH: diy-part1-fros-lean-5.15.sh
   DIY_P2_SH: diy-part2-fros-lean.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: false
@@ -117,7 +117,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
-        name: fros-me-lean_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: fros-me-lean-5.15_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: openwrt/bin
 
     - name: Organize files
@@ -133,7 +133,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: fros-me-lean_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: fros-me-lean-5.15_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: ${{ env.FIRMWARE }}
 
     - name: Upload firmware to cowtransfer
