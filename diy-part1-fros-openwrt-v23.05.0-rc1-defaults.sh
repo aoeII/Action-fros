@@ -24,4 +24,4 @@
 #echo 'src-git-full routing https://git.openwrt.org/feed/routing.git;openwrt-23.05' >>feeds.conf.default
 #echo 'src-git-full telephony https://git.openwrt.org/feed/telephony.git;openwrt-23.05' >>feeds.conf.default
 
-echo 'src-git fros https://github.com/openfros/packages.git' >>feeds.conf.default
+echo 'src-git-full fros https://github.com/openfros/packages.git' >>feeds.conf.default
