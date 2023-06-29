@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build fros-openwrt-v23.05.0-rc1
+name: Build fros-openwrt-v23.05.0-rc1-defaults
 
 on:
   repository_dispatch:
