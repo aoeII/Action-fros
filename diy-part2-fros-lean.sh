@@ -18,4 +18,4 @@ git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-ap
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 git clone https://github.com/sirpdboy/luci-app-advanced.git package/luci-app-advanced
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
-git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
+# git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
