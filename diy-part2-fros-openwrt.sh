@@ -22,4 +22,4 @@ git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
 rm -rf ./package/libs/libubox/Makefile
 # touch ./package/libs/libubox/Makefile
-wget -O ./package/libs/libubox/Makefile https://aoeii.com/router/Makefile
+wget -O ./package/libs/libubox/Makefile https://aoeii.com/router/Makefile --no-check-certificate
